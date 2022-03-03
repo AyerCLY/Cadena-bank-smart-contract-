@@ -6,7 +6,7 @@ pragma solidity ^0.8.0;
 
 contract Bank {
     address public bankOwner; // Identify state var: bankOwner, data type is "address" and is public 
-    string public bankName; // Identify atate var bankName, data type is "string" and is public 
+    string public bankName; // Identify state var bankName, data type is "string" and is public 
     mapping(address => uint) public customerBalance; // We create a mapping named CustomerBalance with the keys being the wallet address of our customers and value the amount of Ether they deposit in Wei.
     //if we enter user account address , it will show their bank balance
 
